@@ -1,0 +1,28 @@
+.radius {
+	-webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.gradient {
+	background: linear-gradient(to right, #aaa, #fff);
+}
+
+.flex {
+	display: flex;
+}
+
+.other {
+	box-sizing: border-box;
+
+	width: calc(100% - 3px);
+}
+
+.css2 {
+	float: left;
+	display: block;
+	font-size: 12px;
+	border: 1px solid #000;
+}

@@ -1,0 +1,23 @@
+@import "compass";
+
+@function url($imgName) {
+  @return url(../images/#{$imgName});
+}
+
+
+.foo {
+	float: left;
+	border: 1px solid #000;
+	a {
+		text-decoration: none;
+	}
+}
+
+.bar {
+	background: url("icon.png") 0 0 no-repeat;
+}
+
+.box {
+	@include display-box;
+	@include box-orient(horizontal);
+}

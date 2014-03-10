@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "author": "tomoki kubo",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-autoprefixer": "0.0.6",
+    "coffee-script": "~1.7.1",
+    "gulp-notify": "~1.0.0-beta",
+    "gulp-rename": "~1.2.0"
+  }
+}
